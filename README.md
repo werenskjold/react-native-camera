@@ -226,7 +226,7 @@ Google Symbol Utilities: https://www.gstatic.com/cpdc/dbffca986f6337f8-GoogleSym
     compile (project(':react-native-camera')) {
         exclude group: "com.google.android.gms"
         compile 'com.android.support:exifinterface:25.+'
-        compile ('com.google.android.gms:play-services-vision:12.0.1') {
+        compile ('com.google.android.gms:play-services-vision:15.0.1') {
             force = true
         }
     }
@@ -258,7 +258,7 @@ The current Android library defaults to the below values for the Google SDK and 
 def DEFAULT_COMPILE_SDK_VERSION             = 26
 def DEFAULT_BUILD_TOOLS_VERSION             = "26.0.2"
 def DEFAULT_TARGET_SDK_VERSION              = 26
-def DEFAULT_GOOGLE_PLAY_SERVICES_VERSION    = "12.0.1"
+def DEFAULT_GOOGLE_PLAY_SERVICES_VERSION    = "15.0.1"
 def DEFAULT_SUPPORT_LIBRARY_VERSION         = "27.1.0"
 ```
 
@@ -278,7 +278,7 @@ ext {
     compileSdkVersion           = 26
     targetSdkVersion            = 26
     buildToolsVersion           = "26.0.2"
-    googlePlayServicesVersion   = "12.0.1"
+    googlePlayServicesVersion   = "15.0.1"
     supportLibVersion           = "27.1.0"
 }
 ```
@@ -293,7 +293,7 @@ buildscript {
 def DEFAULT_COMPILE_SDK_VERSION             = 26
 def DEFAULT_BUILD_TOOLS_VERSION             = "26.0.2"
 def DEFAULT_TARGET_SDK_VERSION              = 26
-def DEFAULT_GOOGLE_PLAY_SERVICES_VERSION    = "12.0.1"
+def DEFAULT_GOOGLE_PLAY_SERVICES_VERSION    = "15.0.1"
 def DEFAULT_SUPPORT_LIBRARY_VERSION         = "27.1.0"
 
 android {
